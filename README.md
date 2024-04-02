@@ -29,6 +29,7 @@
 - [Contact](#contact)
 - [Credits](#credits)
 - [How to Contribute to the Project](#how-to-contribute-to-the-project)
+- [Collaborators](#collaborators)
 
 <!-- Motivation -->
 ## Motivation
@@ -74,6 +75,14 @@ This repository wouldn't have been possible without the contributions and suppor
 4. Commit your changes (`git commit -am 'Add new feature'`).
 5. Push to the branch (`git push origin feature/new-feature`).
 6. Create a new Pull Request.
+
+<!-- Collaborators -->
+## Collaborators
+<p align="center">
+  <a href="https://github.com/realharshgautam/GeeksforGeeks/graphs/contributors">
+    <img src="https://contrib.rocks/image?repo=realharshgautam/GeeksforGeeks" />
+  </a>
+</p>
 
 <!-- License -->
 ## License
