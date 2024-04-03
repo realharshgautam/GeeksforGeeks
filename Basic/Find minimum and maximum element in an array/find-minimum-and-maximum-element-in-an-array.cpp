@@ -7,8 +7,21 @@ using namespace std;
 class Solution {
 public:
     pair<long long, long long> getMinMax(long long a[], int n) {
-        sort(a,a+n);
-        return{a[0],a[n-1]};
+        int mini =a[0];
+        int maxi=a[0];
+        
+        
+        for(int i=0;i<n;i++){
+            if(a[i]>maxi)
+            {
+                maxi=a[i];
+            }
+            if(a[i]<mini)
+            {
+                mini=a[i];
+            }
+        }
+        return {mini,maxi};
     }
 };
 
