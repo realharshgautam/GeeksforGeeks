@@ -1,0 +1,12 @@
+<h2><a href="https://www.geeksforgeeks.org/problems/alone-in-couple5507/1">Party of Couples</a></h2><h3>Difficulty Level : Easy</h3><hr><div class="problems_problem_content__Xm_eO"><p><span style="font-size: 18px;">You are given an integer array <strong>arr[]</strong> of size <strong>n,</strong> representing n number of people in a party, each person is denoted by an integer. Couples are represented by the <strong>same number </strong>ie: <strong>two</strong> people have the <strong>same integer value</strong>, it means they are a <strong>couple</strong>. Find out the <strong>only</strong> <strong>single person</strong> in the party of couples.</span></p>
+<p><strong><span style="font-size: 18px;">NOTE:&nbsp;</span></strong><span style="font-size: 18px;">It is guarantee that there exist only one single person in the party.</span></p>
+<p><span style="font-size: 18px;"><strong>Example 1:</strong></span></p>
+<pre><span style="font-size: 18px;"><strong>Input:</strong> <br>n = 5
+arr = {1, 2, 3, 2, 1}
+<strong>Output:</strong> <br>3
+<strong>Explaination:</strong> Only the number 3 is single.</span></pre>
+<p><span style="font-size: 18px;"><strong>Example 2:</strong></span></p>
+<pre><span style="font-size: 18px;"><strong>Input:</strong> <br>n = 11 <br>arr = {1, 2, 3, 5, 3, 2, 1, 4, 5, 6, 6} <br><strong>Output: <br></strong>4 <br><strong>Explaination:</strong> 4 is the only single.</span></pre>
+<p><strong><span style="font-size: 18px;">Your Task:</span></strong><br><span style="font-size: 18px;">You do not need to read input or print anything. Your task is to complete the function <strong>findSingle()</strong> which takes the size of the array <strong>n</strong> and the array <strong>arr[]</strong> as input parameters and returns the only single person.</span></p>
+<p><span style="font-size: 18px;"><strong>Expected Time Complexity:</strong> O(n)<br><strong>Expected Auxiliary Space:</strong> O(1)</span></p>
+<p><span style="font-size: 18px;"><strong>Constraints:</strong><br>1 ≤ n ≤ 10<sup>4</sup><br>1 ≤ arr[i] ≤ 10<sup>6</sup></span></p></div><p><span style=font-size:18px><strong>Company Tags : </strong><br><code>Ola Cabs</code>&nbsp;<br><p><span style=font-size:18px><strong>Topic Tags : </strong><br><code>Bit Magic</code>&nbsp;<code>Data Structures</code>&nbsp;
