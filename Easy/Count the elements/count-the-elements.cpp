@@ -9,11 +9,17 @@ using namespace std;
 // User function Template for C++
 class Solution {
   public:
-      vector<int> countElements(vector<int> &a, vector<int> &b, int n, vector<int> &query, int q) {
-        vector<int> ans;
-        sort(b.begin(), b.end());
-        for(int idx : query)    ans.push_back(upper_bound(b.begin(), b.end(), a[idx]) - b.begin());
-        return ans;
+    vector<int> countElements(vector<int> &a, vector<int> &b, int n, vector<int> &query,
+                              int q) {
+        // Your code goes here;
+         vector<int>ans;
+         sort(b.begin(),b.end());
+         for(auto ind:query){
+             int ele=a[ind];
+             int count=upper_bound(b.begin(),b.end(),ele)-b.begin();
+             ans.push_back(count);
+         }
+         return ans;
     }
 };
 
