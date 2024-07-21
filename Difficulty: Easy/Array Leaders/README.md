@@ -1,0 +1,12 @@
+<h2><a href="https://www.geeksforgeeks.org/problems/leaders-in-an-array-1587115620/1?utm_source=youtube&utm_medium=collab_striver_ytdescription&utm_campaign=leaders-in-an-array">Array Leaders</a></h2><h3>Difficulty Level : Difficulty: Easy</h3><hr><div class="problems_problem_content__Xm_eO"><p><span style="font-size: 18px;">Given an array&nbsp;<strong>arr&nbsp;</strong>of&nbsp;<strong>n</strong>&nbsp;positive integers, your task is to find all the leaders in the array. An element of the array is considered a leader if it is greater than all the elements on its right side or if it is equal to the maximum element on its right side. The rightmost element is always a leader.</span></p>
+<p><span style="font-size: 18px;"><strong>Examples<br></strong></span></p>
+<pre><span style="font-size: 18px;"><strong>Input: </strong>n = 6, arr[] = {16,17,4,3,5,2}
+<strong>Output: </strong>17 5 2<strong>
+Explanation: </strong>Note that there is nothing greater on the right side of 17, 5 and, 2.</span>
+</pre>
+<pre><span style="font-size: 18px;"><strong>Input: </strong>n = 5, arr[] = {10,4,2,4,1}
+<strong>Output: </strong>10 4 4 1<br><strong>Explanation:</strong> Note that both of the 4s are in output, as to be a leader an equal element is also allowed on the right. side</span></pre>
+<pre><span style="font-size: 18px;"><strong>Input: </strong>n = 4, arr[] = {5, 10, 20, 40} <br><strong>Output: </strong>40<br><strong>Explanation:</strong> When an array is sorted in increasing order, only the rightmost element is leader.</span></pre>
+<pre><span style="font-size: 18px;"><strong>Input: </strong>n = 4, arr[] = {30, 10, 10, 5} <br></span><span style="font-size: 18px;"><strong>Output: </strong>30 10 10 5<br><strong>Explanation:</strong> When an array is sorted in non-increasing order, all elements are leaders.</span></pre>
+<p><span style="font-size: 18px;"><strong>Expected Time Complexity:</strong></span><span style="font-size: 18px;">&nbsp;O(n)</span><br><span style="font-size: 18px;"><strong>Expected Auxiliary Space:</strong>&nbsp;O(n)</span></p>
+<p><span style="font-size: 18px;"><strong>Constraints:</strong><br>1 &lt;= n&nbsp;&lt;= 10<sup>7</sup><br>0 &lt;= arr[i] &lt;= 10<sup>7</sup></span></p></div><p><span style=font-size:18px><strong>Company Tags : </strong><br><code>Payu</code>&nbsp;<code>Adobe</code>&nbsp;<br><p><span style=font-size:18px><strong>Topic Tags : </strong><br><code>Arrays</code>&nbsp;<code>Data Structures</code>&nbsp;
